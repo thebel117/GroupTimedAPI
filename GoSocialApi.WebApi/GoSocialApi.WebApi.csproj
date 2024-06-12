@@ -22,6 +22,7 @@
   <ItemGroup>
     <ProjectReference Include="..\GoSocialApi.Data\GoSocialApi.Data.csproj" />
     <ProjectReference Include="..\GoSocialApi.Models\GoSocialApi.Models.csproj" />
+    <ProjectReference Include="..\GoSocialApi.Services\GoSocialApi.Services.csproj" />
   </ItemGroup>
 
 </Project>
