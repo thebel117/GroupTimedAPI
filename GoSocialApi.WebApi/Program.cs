@@ -1,5 +1,6 @@
 using GoSocialApi.Data;
 using GoSocialApi.Models;
+using GoSocialApi.Services;
 using Microsoft.EntityFrameworkCore;
 //Need a services using maybe?
 
@@ -19,7 +20,9 @@ builder.Services.AddScoped<IPostRepository, PostRepository>();
 builder.Services.AddScoped<ICommentRepository, CommentRepository>();
 
 // Add services
-
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IPostService, PostService>();
+builder.Services.AddScoped<ICommentService, CommentService>();      //need to make ICommentService and CommentService still
 
 // Idk about these yet
 builder.Services.AddControllers();
