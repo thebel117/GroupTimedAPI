@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\GoSocialApi.Models\GoSocialApi.Models.csproj" />
+    <ProjectReference Include="..\GoSocialApi.Data\GoSocialApi.Data.csproj" />
   </ItemGroup>
 
   <ItemGroup>

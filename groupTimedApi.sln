@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoSocialApi.Data", "GoSocia
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoSocialApi.Models", "GoSocialApi.Models\GoSocialApi.Models.csproj", "{74FD7D01-EA65-46F7-9595-8024C23C0CE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoSocialApi.Services", "GoSocialApi.Services\GoSocialApi.Services.csproj", "{B294BD7A-1812-4C0A-9426-9BF0F7293E46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{74FD7D01-EA65-46F7-9595-8024C23C0CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74FD7D01-EA65-46F7-9595-8024C23C0CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74FD7D01-EA65-46F7-9595-8024C23C0CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B294BD7A-1812-4C0A-9426-9BF0F7293E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B294BD7A-1812-4C0A-9426-9BF0F7293E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B294BD7A-1812-4C0A-9426-9BF0F7293E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B294BD7A-1812-4C0A-9426-9BF0F7293E46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
