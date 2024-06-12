@@ -1,0 +1,6 @@
+@GoSocialApi.WebApi_HostAddress = http://localhost:5239
+
+GET {{GoSocialApi.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
