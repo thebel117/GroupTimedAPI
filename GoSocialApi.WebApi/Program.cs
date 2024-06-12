@@ -23,7 +23,7 @@ builder.Services.AddScoped<ICommentRepository, CommentRepository>();
 // Add services
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IPostService, PostService>();
-builder.Services.AddScoped<ICommentService, CommentService>();      //need to make ICommentService and CommentService still
+builder.Services.AddScoped<ICommentService, CommentService>(); 
 
 // Idk about these yet
 builder.Services.AddControllers();
