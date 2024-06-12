@@ -1,4 +1,3 @@
-//Need to make our ICommentService.cs and CommentService.cs CRUD still
 
 //No controllers yet, probably will need(?)
 
