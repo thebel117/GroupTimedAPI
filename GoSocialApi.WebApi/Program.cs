@@ -1,6 +1,7 @@
 using GoSocialApi.Data;
 using GoSocialApi.Models;
 using GoSocialApi.Services;
+using GoSocialApi.WebApi.Services;
 using Microsoft.EntityFrameworkCore;
 //Need a services using maybe?
 

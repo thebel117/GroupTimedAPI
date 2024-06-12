@@ -1,5 +1,4 @@
 using GoSocialApi.Models;
-using System.Collections.Generic;
 using GoSocialApi.Data;
 
 namespace GoSocialApi.Data

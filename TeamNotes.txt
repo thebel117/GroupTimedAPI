@@ -1,7 +1,6 @@
-//Need to make our ICommentService.cs and CommentService.cs files and CRUD still
+//Need to make our ICommentService.cs and CommentService.cs CRUD still
 
 //No controllers yet, probably will need(?)
 
 //Finish IPostServices
 
-//
