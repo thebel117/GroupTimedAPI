@@ -1,4 +1,7 @@
-using GoSocialApi.Models;
+using System.Collections.Generic; 
+using GoSocialApi.Models; 
+using GoSocialApi.Services; 
+using GoSocialApi.WebApi.Services; 
 
 namespace GoSocialApi.Data
 {

@@ -17,7 +17,9 @@ namespace GoSocialApi.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Gotta configure the relationships, constraints, misc bullshit
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<UserEntity>().ToTable("Users");
         }
     }
 }
