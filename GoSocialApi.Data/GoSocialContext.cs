@@ -1,4 +1,6 @@
+
 using GoSocialApi.Data;
+using GoSocialApi.Data.Entities;
 using GoSocialApi.Models;
 using Microsoft.EntityFrameworkCore;
 using GoSocialApi.Data.Entities; 
