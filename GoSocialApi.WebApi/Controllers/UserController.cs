@@ -2,7 +2,6 @@ using GoSocialApi.Data;
 using GoSocialApi.Models;
 using GoSocialApi.WebApi.Services;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 
 namespace GoSocialApi.WebApi.Controllers
 {
