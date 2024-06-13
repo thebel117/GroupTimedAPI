@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 using GoSocialApi.Models;
 using Microsoft.AspNetCore.Identity;
 
-namespace GoSocialApi.Data.Entities ;
+namespace GoSocialApi.Data.Entities;
 
 
 public class UserEntity : IdentityUser<int> 

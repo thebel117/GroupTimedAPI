@@ -1,5 +1,7 @@
+using GoSocialApi.Data;
 using GoSocialApi.Models;
 using Microsoft.EntityFrameworkCore;
+using GoSocialApi.Data.Entities; 
 
 namespace GoSocialApi.Data
 {

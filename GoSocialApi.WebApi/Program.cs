@@ -3,7 +3,7 @@ using GoSocialApi.Models;
 using GoSocialApi.Services;
 using GoSocialApi.WebApi.Services;
 using Microsoft.EntityFrameworkCore;
-//Need a services using maybe?
+using GoSocialApi.Data.Entities;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,14 +11,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
 builder.Services.AddDbContext<GoSocialContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-
-builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IPostRepository, PostRepository>();
-builder.Services.AddScoped<ICommentRepository, CommentRepository>();
 
 // Add services
 builder.Services.AddScoped<IUserService, UserService>();

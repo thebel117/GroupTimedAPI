@@ -7,21 +7,21 @@ namespace GoSocialApi.Data
 {
     public class UserService : IUserService
     {
-        private readonly IUserRepository _userRepository;
+        private readonly IUserService _userService;
 
-        public UserService(IUserRepository userRepository)
+        public UserService(IUserService userService)
         {
-            _userRepository = userRepository;
+            _userService = userService;
         }
 
-        public IEnumerable<User> GetAllUsers() => _userRepository.GetAllUsers();
+        public IEnumerable<User> GetAllUsers() => _userService.GetAllUsers();
 
-        public User GetUserById(int id) => _userRepository.GetUserById(id);
+        public User GetUserById(int id) => _userService.GetUserById(id);
 
-        public void CreateUser(User user) => _userRepository.CreateUser(user);
+        public void CreateUser(User user) => _userService.CreateUser(user);
 
-        public void UpdateUser(User user) => _userRepository.UpdateUser(user);
+        public void UpdateUser(User user) => _userService.UpdateUser(user);
 
-        public void DeleteUser(int id) => _userRepository.DeleteUser(id);
+        public void DeleteUser(int id) => _userService.DeleteUser(id);
     }
 }
