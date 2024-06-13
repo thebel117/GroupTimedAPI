@@ -1,6 +1,6 @@
+-- Make DB and Tables, etc
 
-//No controllers yet, probably will need(?)
+-- Link the user secrets, port # (indiv basis)
 
 //Finish IPostServices
 
-create the database 
