@@ -1,5 +1,5 @@
+-- Make DB and Tables, etc
 
-//No controllers yet, probably will need(?)
+-- Link the user secrets, port # (indiv basis)
 
-//Finish IPostServices
-
+-- To go with UserEntities.cs, we need a UserTextResponse.cs and UserRegister.cs to go with (reference ElevenNote)
